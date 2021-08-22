@@ -7,6 +7,7 @@ def main():
     qmeg=meg*0.8
     qnmi=nmi*0.8
     cm=qmen+qmeg+qnmi
+    cm=round(cm,2)
     print("El costo mensual es: ",cm)
     pass
 
